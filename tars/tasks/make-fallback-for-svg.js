@@ -23,6 +23,7 @@ module.exports = function () {
                 .pipe(
                     spritesmith(
                         {
+                            padding: 5,
                             imgName: 'svg-fallback-sprite.png',
                             cssName: 'svg-fallback-sprite.scss',
                             Algorithms: 'diagonal',
